@@ -42,7 +42,7 @@ public class Todo {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
